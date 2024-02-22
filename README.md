@@ -1,6 +1,6 @@
 # Homework Assignment 11
 
-[![.github/workflows/main.yml](https://github.com/PGE311/assignment11-solution/actions/workflows/main.yml/badge.svg)](https://github.com/PGE311/assignment11-solution/actions/workflows/main.yml)
+[![.github/workflows/main.yml](https://github.com/PGE311/assignment11/actions/workflows/main.yml/badge.svg)](https://github.com/PGE311/assignment11/actions/workflows/main.yml)
 
 Open the [Assignment 11 Jupyter Notebook](assignment11.ipynb) and follow the instructions.
 
