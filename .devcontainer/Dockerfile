@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/devcontainers/miniconda:0-3
 COPY environment.yml* .devcontainer/noop.txt .devcontainer/conda_init.txt /tmp/conda-tmp/
 
 RUN apt-get update; \
-    apt-get -yq install vim libgl1-mesa-glx && \
+    apt-get -yq install vim libgl1-mesa-glx libgtk-3-0 libasound2 && \
     rm -rf /var/lib/apt/lists/*
 
 RUN conda install mamba -c conda-forge -y; \
